@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Assessment</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <div class="headerLink">
+          <p>TRIPS</p>
+          <p>RECENTLY VIEWED</p>
+          <p>BOOKINGS</p>
+          <img src="./img/avatar.png" alt="avatar" />
+        </div>
+      </section>
+      <section class="cardBody">
+        <div class="cardBody-header">
+          <p>
+            Payment Information <br />
+            <span>Choose your method of payment</span>
+          </p>
+          <div class="paymentMethod">
+            <img src="./img/visa.jpg" alt="visa" /><img
+              src="./img/discover.png"
+              alt="discover"
+            /><img src="./img/paypal.png" alt="" />
+          </div>
+        </div>
+        <div class="cardBody-body">
+          <div class="card">
+            <p>CARD NUMBER</p>
+            <p>4324 5433 9382 1030</p>
+            <div class="lense-chip">
+              <img src="./img/lenses.png" alt="Card Lense" /><img
+                src="./img/chip.png"
+                alt="Card Chip"
+              />
+            </div>
+            <p>Expiration Date</p>
+            <p>03/24</p>
+            <div class="cardBodyFooter">
+              <p>John Doe</p>
+              <img src="./img/masterCard.png" alt="Master Card" />
+            </div>
+          </div>
+          <div class="cardDetails">
+            <div class="groupInput">
+              <div class="input-container">
+                <p>Credit Card Number</p>
+                <div class="inputContainer">
+                  <input type="text" placeholder="Credit Card Number" />
+                </div>
+              </div>
+              <div class="input-container">
+                <p>Expiration date</p>
+                <div class="inputContainer">
+                  <input type="text" placeholder="Expiration date" />
+                </div>
+              </div>
+            </div>
+            <div class="groupInput">
+              <div class="input-container">
+                <p>Security code</p>
+                <div class="inputContainer">
+                  <input type="text" placeholder="Security code" />
+                </div>
+              </div>
+              <div class="input-container">
+                <p>Postal Code</p>
+                <div class="inputContainer">
+                  <input type="text" placeholder="Postal Code" />
+                </div>
+              </div>
+            </div>
+            <div class="option">
+              <input type="radio" />
+              <p>Use this card for next time purchase</p>
+            </div>
+            <button class="addCardBtn">Add card</button>
+          </div>
+        </div>
+      </section>
+      <section class="cardFooter">
+        <div class="cardFooter-subtotal">
+          <p>Subtotal</p>
+          <p>&#8358;2,497.00</p>
+        </div>
+        <div class="cardFooter-estimatedTax">
+          <p>Estimated TAX</p>
+          <p>&#8358;119.00</p>
+        </div>
+        <div class="cardFooter-promotional">
+          <p>Promotional Code: <span>Z4KLM9A</span></p>
+          <p>&#8358;-60.00.00</p>
+        </div>
+      </section>
+      <section class="footer">
+        <button class="completeBtn">Complete payment</button>
+        <p>TOTAL: &#8358;2556.64</p>
+      </section>
+    </div>
+  </body>
+</html>
