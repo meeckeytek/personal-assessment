@@ -19,7 +19,8 @@
   transition: 0.2s ease all;
 }
 
-.addCardBtn:hover {
+.addCardBtn:hover,
+.completeBtn:hover {
   background: #4563c4;
 }
 
@@ -27,7 +28,6 @@ body {
   background-color: #ababab;
   width: 100vw;
   height: 100vh;
-  /* overflow: hidden; */
 }
 
 .card {
@@ -103,12 +103,6 @@ body {
   width: 70px;
   height: 40px;
 }
-.cardCircle {
-  background-color: #ffbf9d;
-  border-radius: 50% 50%;
-  width: 50px;
-  height: 50px;
-}
 
 .cardDetails {
   display: flex;
@@ -163,8 +157,6 @@ body {
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.5px;
-  /* margin: 3rem 0; */
-  /* background-color: red; */
 }
 
 .headerLink {
@@ -173,7 +165,6 @@ body {
   align-items: center;
   width: 40%;
   margin: 2rem 0;
-  /* background-color: red; */
 }
 
 .headerLink p,
@@ -251,7 +242,6 @@ body {
   height: 20px;
 }
 
-
 @media screen and (max-width: 1812px) {
   .container {
     width: 70%;
@@ -269,7 +259,7 @@ body {
     width: 50%;
   }
   .cardBody-body {
-flex-direction: column;
+    flex-direction: column;
   }
   .headerLink {
     display: flex;
@@ -286,7 +276,7 @@ flex-direction: column;
     width: 100%;
   }
   .card {
-     width: 90%;
+    width: 90%;
   }
 }
 
@@ -298,21 +288,20 @@ flex-direction: column;
 
 @media screen and (max-width: 508px) {
   .addCardBtn,
-.completeBtn {
-  font-size: 12px;
-}
+  .completeBtn {
+    font-size: 12px;
+  }
   .container {
-    /* padding: 0 4rem; */
     width: 70%;
   }
   .card {
-    font-size: .8rem;
+    font-size: 0.8rem;
     height: 230px;
   }
   .cardBody-header p {
     font-size: 1rem;
   }
-  
+
   .cardBody-header span {
     font-size: 0.6rem;
   }
@@ -320,23 +309,23 @@ flex-direction: column;
     font-size: 14px;
   }
 
-  .cardFooter p{
+  .cardFooter p {
     font-size: 1rem;
   }
 
   .cardFooter-promotional span {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .footer p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
-  
+
   .header {
     font-size: 13px;
   }
 
   .option p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
