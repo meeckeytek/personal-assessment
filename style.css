@@ -44,7 +44,7 @@ body {
 .cardBody {
   border-top: 2px solid #eff0f1;
   border-bottom: 2px solid #eff0f1;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .cardBody-body {
@@ -120,7 +120,7 @@ body {
 
 .cardFooter {
   border-bottom: 2px solid #eff0f1;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .container {
@@ -135,7 +135,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   margin-bottom: 2rem;
 }
 
