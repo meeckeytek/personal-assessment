@@ -280,6 +280,7 @@ body {
   }
 }
 
+//Responsiveness
 @media screen and (max-width: 856px) {
   .container {
     width: 70%;
